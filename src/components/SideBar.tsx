@@ -12,7 +12,11 @@ interface SideBarProps {
 	handleClickButton(genreId: number): void;
 }
 
-export function SideBar({ genres, selectedGenreId, handleClickButton }: SideBarProps) {
+export function SideBar({
+	genres,
+	selectedGenreId,
+	handleClickButton,
+}: SideBarProps) {
 	return (
 		<nav className='sidebar'>
 			<span>
